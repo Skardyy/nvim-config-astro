@@ -24,7 +24,7 @@ return {
     "Shatur/neovim-ayu",
     -- config = function()
     --   vim.cmd [[colorscheme ayu]]
-    -- vim.cmd [[
+    --   vim.cmd [[
     --   hi Normal guibg=None ctermbg=None
     --   hi ColorColumn guibg=None ctermbg=None
     --   hi SignColumn guibg=None ctermbg=None
@@ -38,6 +38,10 @@ return {
     --   hi LineNr guibg=None ctermbg=None
     --   hi StatusLine guibg=None ctermbg=None
     --   hi CursorLineNr guibg=None ctermbg=None
+    --   hi StatusLineNC guibg=None ctermbg=None
+    --   hi TabLineFill guibg=None ctermbg=None
+    --   hi TabLine guibg=None ctermbg=None
+    --   hi TabLineSel guibg=None ctermbg=None
     --
     --   hi @punctuation ctermfg=white
     -- ]]
@@ -61,6 +65,9 @@ return {
         hi LineNr guibg=None ctermbg=None
         hi StatusLine guibg=None ctermbg=None
         hi CursorLineNr guibg=None ctermbg=None
+        hi TabLineFill guibg=None ctermbg=None
+        hi TabLine guibg=None ctermbg=None
+        hi TabLineSel guibg=None ctermbg=None
 
         hi @punctuation ctermfg=white
       ]]
